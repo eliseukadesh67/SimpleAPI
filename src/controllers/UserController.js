@@ -1,32 +1,3 @@
-let users = [
-
-    {
-        id: 1,
-        name: 'Gabriel Paiva',
-    },
-    
-    {
-        id: 2,
-        name: 'Murilo Gomes',
-    },
-    
-    {
-        id: 3,
-        name: 'Eliseu Kadesh',
-    },
-
-];
-
-function getAll(){
-    return users;
-};
-
-function addUser(id, name){
-    users.push({id, name});
-
-    return users[users.length - 1];
-};
-
 module.exports = {
     
     index(request, response) {
